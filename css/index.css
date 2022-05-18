@@ -1,0 +1,57 @@
+:root {
+  --card1--: hsl(31, 77%, 52%);
+  --card2--: hsl(184, 100%, 22%);
+  --card3--: hsl(179, 100%, 13%);
+  --accent--: hsla(0, 0%, 100%, 0.75);
+  --accent--light: hsl(0, 0%, 95%);
+}
+
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif !important;
+}
+
+.card {
+  border: none !important;
+}
+
+.card1 {
+  background: var(--card1--) !important;
+}
+.card2 {
+  background: var(--card2--) !important;
+}
+.card3 {
+  background: var(--card3--) !important;
+}
+
+p {
+  color: var(--accent--) !important;
+}
+
+p,
+.btn {
+  font-size: 15px !important;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive !important;
+}
+
+.card1-btn {
+  color: var(--card1--) !important;
+}
+.card2-btn {
+  color: var(--card2--) !important;
+}
+
+.card3-btn {
+  color: var(--card3--) !important;
+}
+
+.card1-btn:hover,
+.card2-btn:hover,
+.card3-btn:hover {
+  background: none !important;
+  color: var(--accent--light) !important;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .attribution a:hover {
+        color: hsl(31, 77%, 52%);
+      }
+    </style>
+  </head>
+  <body class="bg-primary">
+    <div class="container-fluid">
+      <div
+        class="row vh-100 justify-content-center align-items-center my-5 my-lg-0"
+      >
+        <div class="col-lg-9 col-xl-8 col-sm-5 col-11">
+          <div class="row rounded-3 overflow-hidden">
+            <!-- card1 -->
+            <div class="col-lg-4 col-12 p-0">
+              <div class="card h-100 p-4 card1 rounded-0">
+                <div class="card-body">
+                  <div class="d-flex flex-column gap-4 h-100">
+                    <div>
+                      <img
+                        src="images/icon-sedans.svg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <h1 class="mb-0 mt-2 text-uppercase text-primary">
+                      Sedans
+                    </h1>
+                    <p>
+                      Choose a sedan for its affordability and excellent fuel
+                      economy. Ideal for cruising in the city or on your next
+                      road trip.
+                    </p>
+                    <button
+                      class="btn btn-lg btn-primary rounded-pill px-4 py-2 card1-btn align-self-start mt-auto border-2"
+                    >
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card2 -->
+            <div class="col-lg-4 col-12 p-0">
+              <div class="card h-100 p-4 card2 rounded-0">
+                <div class="card-body">
+                  <div class="d-flex flex-column gap-4 mb-5 h-100">
+                    <div>
+                      <img
+                        src="images/icon-suvs.svg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <h1 class="mb-0 mt-2 text-uppercase text-primary">Suvs</h1>
+                    <p>
+                      Take an SUV for its spacious interior, power, and
+                      versatility. Perfect for your next family vacation and
+                      off-road adventures.
+                    </p>
+                    <button
+                      class="btn btn-lg btn-primary rounded-pill px-4 py-2 card2-btn align-self-start mt-auto border-2"
+                    >
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card3 -->
+            <div class="col-lg-4 col-12 p-0">
+              <div class="card h-100 p-4 card3 rounded-0">
+                <div class="card-body">
+                  <div class="d-flex flex-column gap-4 mb-5 h-100">
+                    <div>
+                      <img
+                        src="images/icon-luxury.svg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <h1 class="mb-0 mt-2 text-uppercase text-primary">
+                      Luxury
+                    </h1>
+                    <p>
+                      Cruise in the best car brands without the bloated prices.
+                      Enjoy the enhanced comfort of a luxury rental and arrive
+                      in style.
+                    </p>
+                    <button
+                      class="btn btn-lg btn-primary rounded-pill px-4 py-2 card3-btn align-self-start mt-auto border-2"
+                    >
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Qui3tK1D</a>.
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
